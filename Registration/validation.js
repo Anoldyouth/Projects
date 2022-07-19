@@ -9,7 +9,7 @@ document.getElementById("sendForm").addEventListener('click', function (event) {
 		});
 		var form = $("#registration").serialize();
 		$.ajax({
-			url: 'registration.php',
+			url: 'validation.php',
 			type: 'POST',
 			data: form,
 			beforeSend: function() {
